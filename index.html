@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travel booking</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<!---        header      -->
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<form action="#" class="menu_search_form">
+				<input type="text" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</form>
+			<ul id="m_nav_list" class="m_nav menu__list">
+		
+				<li class=" menu_item  id="m_nav_item_1"> <a href="index.html" class="link link--kumya"><i class="fa fa-home" aria-hidden="true"></i><span data-letters="Home">Home</span></a></li>
+				<li class=" menu_item  id="moble_nav_item_3"> <a href="about.html" class="link link--kumya"><i class="fa fa-info-circle" aria-hidden="true"></i><span data-letters="About Us">About Us</span></a></li>
+				<li class=" menu_item  id="moble_nav_item_4"> <a href="booking.html" class="link link--kumya"><i class="fa fa-building-o" aria-hidden="true"></i><span data-letters="Booking">Booking</span></a></li>
+				<li class=" menu_item  id="moble_nav_item_4"> <a href="blog.html" class="link link--kumya"><i class="fa fa-edit" aria-hidden="true"></i><span data-letters="Blog">Blog</span></a></li>
+								<!--<li class=" menu_item m_nav_item dropdown" id="moble_nav_item_2">
+							  		 <a href="#" class="dropdown-toggle link link--kumya" data-toggle="dropdown"><i class="fa fa-cog" aria-hidden="true"></i><span data-letters="Short Codes">Short Codes <b class="caret"></b></a>
+								
+								 		<ul class="dropdown-menu agile_short_dropdown">
+										<li><a href="icons.html">Web Icons</a></li>
+										<li><a href="typography.html">Typography</a></li>
+								  		</ul>
+								</li>-->
+
+				<li class=" menu_item m_nav_item" id="moble_nav_item_6"> <a href="profile.html" class="link link--kumya"><i class="fa fa-user-circle" aria-hidden="true"></i><span data-letters="Profile">Profile</span></a></li>
+							
+			</ul>
+		</div>
+		<div class="menu_social">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(./images/bp1.jpg)"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<img src="./images/log.png" alt="">	
+									</div>
+									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
+										<div class="header_top_nav">
+											<ul class="d-flex flex-row align-items-center justify-content-start m_nav menu__list" id="m_nav_list">
+												<li class="m_nav_item" id="moble_nav_item_3"> <a href="about.html" class="link link--kumya"><i class="fa fa-info-circle" aria-hidden="true"></i><span data-letters="Help Desk">Help Desk</span></a></li>
+												<li class="m_nav_item" id="moble_nav_item_4"> <a href="booking.html" class="link link--kumya"><i class="fa fa-building-o" aria-hidden="true"></i><span data-letters="Emergency Services">Emergency Services</span></a></li>
+												<li class="m_nav_item" id="moble_nav_item_4"> <a href="signup.html" class="link link--kumya"><i class="fa fa-lock" aria-hidden="true"></i><span data-letters="LOG IN">LOG IN</span></a></li>
+												
+											</ul>
+										</div>
+										<div class="header_top_phone">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+											<span>+34 586 778 8892</span>
+										</div>
+									</div>
+									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start ">
+											<nav class="main_nav" >
+											
+												<ul class="d-flex flex-row align-items-center justify-content-start m_nav menu__list" id="m_nav_list">
+													<li class="m_nav_item active" id="m_nav_item_1"> <a href="index.html" class="link link--kumya"><i class="fa fa-home" aria-hidden="true"></i><span data-letters="Home">Home</span></a></li>
+													<li class="m_nav_item" id="moble_nav_item_3"> <a href="about.html" class="link link--kumya"><i class="fa fa-info-circle" aria-hidden="true"></i><span data-letters="About Us">About Us</span></a></li>
+													<li class="m_nav_item" id="moble_nav_item_4"> <a href="booking.html" class="link link--kumya"><i class="fa fa-building-o" aria-hidden="true"></i><span data-letters="Booking">Booking</span></a></li>
+													<li class="m_nav_item" id="moble_nav_item_4"> <a href="blog.html" class="link link--kumya"><i class="fa fa-edit" aria-hidden="true"></i><span data-letters="Blog">Blog</span></a></li>
+													<!--<li class="m_nav_item dropdown" id="moble_nav_item_2">
+														<a href="#" class="dropdown-toggle link link--kumya" data-toggle="dropdown"><i class="fas fa-lock"></i></i><i class="fa fa-cog" aria-hidden="true"></i><span data-letters="Short Codes">Short Codes <b class="caret"></b></a>
+													
+															<ul class="dropdown-menu agile_short_dropdown"><i class="fas fa-blog"></i>
+															<li><a href="icons.html">Web Icons</a></li><i class="fas fa-cubes"></i><i class="fas fa-edit"></i>
+															<li><a href="typography.html">Typography</a></li><i class="fas fa-user-circle"></i>
+															</ul>
+													</li>-->
+
+													<li class="m_nav_item" id="moble_nav_item_6"> <a href="profile.html" class="link link--kumya"><i class="fa fa-user-circle" aria-hidden="true"></i><span data-letters="Profile">Profile</span></a></li>
+												
+												</ul>
+											</nav>
+											<div class="search_content d-flex flex-row align-items-center justify-content-end ml-auto">
+												<form action="#" id="search_container_form" class="search_container_form">
+													<input type="text" class="search_container_input" placeholder="Search" required="required">
+													<button class="search_container_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Travle with us</div>
+							<div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</div>
+							<div class="button home_button "><a href="#"><span>read more</span><span>read more</span></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Info Boxes -->
+
+	<div class="tm-section-2">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="tm-section-title">We are here to help you?</h2>
+					<p class="tm-color-white tm-section-subtitle">Subscribe to get our best service</p>
+					<div class="button home_button tm-btn-white-bordered"><a href="#"><span>Subscribe Hear</span><span>Subscribe Hear</span></a></div>
+				</div>                
+			</div>
+		</div>        
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="tm-section-down-arrow">
+		<polygon fill="#0b0357f5" points="0,0  100,0  50,60"></polygon>                   
+	</svg>
+</div>
+
+<!--/tabs-->
+<section class="middile-sec py-5" id="tabs">
+    <div class="container py-md-5">
+        
+        <div class="middile-inner-con">
+            <div class="tab-main mx-auto">
+
+                <input id="tab1" type="radio" name="tabs" checked>
+                <label for="tab1">Upcoming Trips and Tours to abroad  </label>
+
+                <input id="tab2" type="radio" name="tabs">
+                <label for="tab2"> Upcoming public events </label>
+
+                <input id="tab3" type="radio" name="tabs">
+				<label for="tab3">Membership program</label>
+				
+				
+
+                <section id="content1">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="images/d1.jpg" class="img-fluid" alt="mobile-image">
+                        </div>
+                        <div class="col-lg-6  p-3">
+                            <h4  class="mb-3">100% customer satisfaction</h4>
+                            <p>Upcoming Trips and Tours to abroad (1-2 per months)....................</p>
+							<div class="button home_button "><a href="#"><span>read more</span><span>read more</span></a></div>
+						</div>
+                    </div>
+                </section>
+
+                <section id="content2">
+                    <div class="row">
+                        <div class="col-lg-6  p-3">
+                            <h4 class="mb-3">100% customer satisfaction</h4>
+                            <p>The Alps, Italian Tyrol, visiting all West European countries ...........</p>
+							<div class="button home_button "><a href="#"><span>read more</span><span>read more</span></a></div>
+						</div>
+                        <div class="col-lg-6">
+                          
+                            <img src="images/d2.jpg" class="img-fluid" alt="mobile-image">
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="content3">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="images/offer.PNG" class="img-fluid" alt="mobile-image">
+                        </div>
+                        <div class="col-lg-6 p-3">
+                            <h4 class="mb-3">100% customer satisfaction</h4>
+                            <h4 class="mb-3">Moto Caching </h4>
+                            <p>Discounts at our partners: Yamaha, Honda, Gas & Café, etc.  Get coupons by finding objects and monuments based on coordinates ........</p>
+							<div class="button home_button "><a href="#"><span>read more</span><span>read more</span></a></div>
+						</div>
+                    </div>
+				</section>
+
+				
+            </div>
+        </div>
+    </div>
+</section>
+<!--/tabs-->
+
+
+
+	<!-- Best place -->
+
+	<div class="departments">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">Most beautyfull travel places</div>
+					<div class="section_subtitle">to choose from</div>
+				</div>
+			</div>
+			<div class="row dept_row">
+				<div class="col">
+					<div class="dept_slider_container_outer">
+						<div class="dept_slider_container">
+
+							<!-- Slider -->
+							<div class="owl-carousel owl-theme dept_slider">
+								
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="images/2.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Albania</div>
+										<div class="dept_link"><a href="#">Read More</a></div>
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="images/4.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Andalusia</div>
+										<div class="dept_link"><a href="#">Read More</a></div>
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="images/5.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Morocco</div>
+										<div class="dept_link"><a href="#">Read More</a></div>
+									</div>
+								</div>
+
+								<!-- Slide -->
+								<div class="owl-item dept_item">
+									<div class="dept_image"><img src="images/7.jpg" alt=""></div>
+									<div class="dept_content">
+										<div class="dept_title">Thilend</div>
+										<div class="dept_link"><a href="#">Read More</a></div>
+									</div>
+								</div>
+
+							</div>
+							
+						</div>
+
+						<!-- Dept Slider Nav -->
+						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //Best place -->
+
+
+
+
+	<!-- CTA -->
+
+	<div class="cta">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/d22.jpg" data-speed="0.8"></div>
+		<div class="b-c">
+			<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_container d-flex flex-xl-row flex-column align-items-xl-start align-items-center justify-content-xl-start justify-content-center">
+						<div class="cta_content text-xl-left text-center">
+							<div class="cta_title">Make an appointment for know details of our service.</div>
+							<div class="cta_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus, blanditiis sapiente asperiores nisi quasi enim vel repellat perspiciatis.</div>
+						</div>
+						<div class="button cta_button ml-xl-auto"><a href="#"><span>call now</span><span>call now</span></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+<!-- FAQ & News -->
+
+<div class="stuff">
+	<div class="container">
+		<div class="row">
+
+			<!-- FAQ -->
+			<div class="col-lg-7">
+				<div class="faq">
+					<div class="faq_title">Faq & Offer</div>
+					<div class="faq_subtitle">read all about it</div>
+					<div class="elements_accordions">
+						<div class="accordions">
+
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center active"><div>Driving technique trainings.</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p>Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>Discounts for our trips and trainings</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p>Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>Discounts at our partners: Yamaha, Honda, Gas & Café, etc.</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p>Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>Moto Caching.</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p> Moto Caching – get coupons by finding objects and monuments based on coordinates - Gifts and souvenirs to buy: Always on Road, Budapest-Bamako, Gas & Café, etc. - Few articles about motorbikes, trips, maintenance, etc .</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Latest News -->
+			<div class="col-lg-5">
+				<div class="news">
+					<div class="news_title">Latest News</div>
+					<div class="news_subtitle">read all about it</div>
+					<div class="news_container">
+
+						<!-- Latest News Post -->
+						<div class="latest d-flex flex-row align-items-start justify-content-start">
+							<div><div class="latest_image"><img src="images/latest_1.jpg" alt=""></div></div>
+							<div class="latest_content">
+								<div class="latest_title"><a href="news.html">A simple blog post</a></div>
+								<div class="latest_info">
+									<ul class="d-flex flex-row align-items-start justify-content-start">
+										<li><a href="#">by Jane Smith</a></li>
+										<li><a href="#">April 25, 2018</a></li>
+									</ul>
+								</div>
+								<div class="latest_comments"><a href="#">2 Comments</a></div>
+							</div>
+						</div>
+
+						<!-- Latest News Post -->
+						<div class="latest d-flex flex-row align-items-start justify-content-start">
+							<div><div class="latest_image"><img src="images/latest_2.jpg" alt=""></div></div>
+							<div class="latest_content">
+								<div class="latest_title"><a href="news.html">A new way to see things in Travel</a></div>
+								<div class="latest_info">
+									<ul class="d-flex flex-row align-items-start justify-content-start">
+										<li><a href="#">by Jane Smith</a></li>
+										<li><a href="#">April 25, 2018</a></li>
+									</ul>
+								</div>
+								<div class="latest_comments"><a href="#">2 Comments</a></div>
+							</div>
+						</div>
+
+						<!-- Latest News Post -->
+						<div class="latest d-flex flex-row align-items-start justify-content-start">
+							<div><div class="latest_image"><img src="images/latest_3.jpg" alt=""></div></div>
+							<div class="latest_content">
+								<div class="latest_title"><a href="news.html">Best sport travel</a></div>
+								<div class="latest_info">
+									<ul class="d-flex flex-row align-items-start justify-content-start">
+										<li><a href="#">by Jane Smith</a></li>
+										<li><a href="#">April 25, 2018</a></li>
+									</ul>
+								</div>
+								<div class="latest_comments"><a href="#">2 Comments</a></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- Footer -->
+
+<footer class="footer">
+	<div class="container py-xl-5 py-lg-3">
+		<!-- subscribe -->
+		<div class="subscribe mx-auto">
+			<div class="icon-effect-w3">
+				<span class="fa fa-envelope"></span>
+			</div>
+			<h2 class="tittle text-center font-weight-bold">Stay Updated!</h2>
+			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna
+				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<form action="#" method="post" class="subscribe-wthree pt-2">
+				<div class="d-flex subscribe-wthree-field">
+					<input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
+					<button class="btn form-control w-50" type="submit">Subscribe</button>
+				</div>
+			</form>
+		</div>
+		<!-- //subscribe -->
+	</div>	
+		
+	<div class="footer_bar">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+						<nav class="footer_nav">
+							<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="services.html">Booking</a></li>
+								<li><a href="news.html">Blog</a></li>
+								<li><a href="contact.html">Profile</a></li>
+							</ul>
+						</nav>
+						<div class="footer_links">
+							<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+								<li><a href="#">Help Desk</a></li>
+								<li><a href="#">Emergency Services</a></li>
+								<li><a href="#">Appointment</a></li>
+							</ul>
+						</div>
+						<div class="footer_phone ml-lg-auto">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>+34 586 778 8892</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- copyright bottom -->
+<div class="copy-bottom bg-li py-4 border-top">
+<div class="container">
+	<div class="d-md-flex px-md-3 position-relative text-center">
+		<!-- footer social icons -->
+		<div class="social-icons-footer mb-md-0 mb-3">
+			<ul class="list-unstyled">
+				<li>
+					<a href="#">
+						<span class="fa fa-facebook"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa fa-twitter"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa fa-google-plus"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa fa-instagram"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- //footer social icons -->
+		<!-- copyright -->
+		<div class="copy_right mx-md-auto mb-md-0 mb-3">
+			<p class="text-bl let">© 2020 Startup. All rights reserved | Design by
+				<a href="" target="_blank">Adam Imre Hegedus</a>
+			</p>
+		</div>
+		<!-- //copyright -->
+		<!-- move top icon -->
+		<ul class="menu nav">
+			<li class="pr-4" ><a style="color: #44018d;" href="index.html">Home</a></li>
+			<li><a style="color: #44018d;" href="about.html">About Us</a></li>
+			</ul>
+		<!-- //move top icon -->
+	</div>
+</div>
+</div>
+<!-- //copyright bottom -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

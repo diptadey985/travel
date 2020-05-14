@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Menu
+5. Home
+6. Services
+7. Boxes
+8. Tabs
+9. Footer
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,900');
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+
+/*********************************
+8. Tabs
+*********************************/
+
+.tabs_container {
+	width: 100%;
+	background: #ffffff;
+	padding-top: 100px;
+	padding-bottom: 8px;
+}
+.tab {
+	width: 100%;
+	padding-left: 29px;
+	padding-top: 23px;
+	padding-bottom: 25px;
+	padding-right: 29px;
+	background: #f8fafc;
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.tab:not(:last-child) {
+	margin-bottom: 2px;
+}
+.tab::after {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 6px;
+	height: 100%;
+	content: '';
+	background: #dfdfdf;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.tab:hover::after,
+.tab.active::after {
+	background: #404040;
+}
+.tab:hover,
+.tab.active {
+	background: #1a2a6c;
+	background: -webkit-linear-gradient(to right, #e77205, #b21f1f, #1a2a6c);
+	background: linear-gradient(to right, #e77205, #b21f1f, #1a2a6c);
+}
+.tab:hover .tab_title,
+.tab:hover .tab_text,
+.tab.active .tab_title,
+.tab.active .tab_text {
+	color: #ffffff;
+}
+.tab_panel {
+	display: none !important;
+	width: 100%;
+	height: 100%;
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s;
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeEffect {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.tab_panel.active {
+	display: block !important;
+}
+.tab_list {
+	padding-top: 31px;
+}
+.tab_list ul li:not(:last-child) {
+	margin-bottom: 41px;
+}
+.tab_image {
+	width: 100%;
+}
+.tab_image img {
+	max-width: 100%;
+}
+.tab_title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #404040;
+	line-height: 1.2;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.tab_text {
+	font-size: 14px;
+	font-weight: 500;
+	color: #b1b1b1;
+	margin-top: 7px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.tab_list_title {
+	font-size: 20px;
+	font-weight: 600;
+	color: #404040;
+}
+.tab_list_text {
+	margin-top: 8px;
+}
+/* ********************************
+9. Footer
+******************************** */
+/* ********************************
+7. Boxes
+******************************** */
+.boxes {
+	width: 100%;
+}
+.box {
+	width: calc(100% / 3);
+	padding-top: 79px;
+	padding-left: 90px;
+	padding-bottom: 64px;
+	padding-right: 30px;
+}
+.box_title {
+	font-size: 30px;
+	font-weight: 600;
+	color: #ffffff;
+	line-height: 1.2;
+}
+.box_subtitle {
+	font-size: 11px;
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 0.75;
+	margin-top: 16px;
+	padding-left: 1px;
+}
+.box_text {
+	margin-top: 60px;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.66);
+	line-height: 2.14;
+	padding-left: 3px;
+}
+.box_button {
+	margin-top: 77px;
+}

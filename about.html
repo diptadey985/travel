@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travel booking</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/contact.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+</head>
+<body>
+
+<!---        header      -->
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<form action="#" class="menu_search_form">
+				<input type="text" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</form>
+			<ul id="m_nav_list" class="m_nav menu__list">
+		
+				<li class=" menu_item  id="m_nav_item_1"> <a href="index.html" class="link link--kumya"><i class="fa fa-home" aria-hidden="true"></i><span data-letters="Home">Home</span></a></li>
+				<li class=" menu_item  id="moble_nav_item_3"> <a href="about.html" class="link link--kumya"><i class="fa fa-info-circle" aria-hidden="true"></i><span data-letters="About Us">About Us</span></a></li>
+				<li class=" menu_item  id="moble_nav_item_4"> <a href="booking.html" class="link link--kumya"><i class="fa fa-building-o" aria-hidden="true"></i><span data-letters="Booking">Booking</span></a></li>
+				<li class=" menu_item  id="moble_nav_item_4"> <a href="blog.html" class="link link--kumya"><i class="fa fa-edit" aria-hidden="true"></i><span data-letters="Blog">Blog</span></a></li>
+								<!--<li class=" menu_item m_nav_item dropdown" id="moble_nav_item_2">
+							  		 <a href="#" class="dropdown-toggle link link--kumya" data-toggle="dropdown"><i class="fa fa-cog" aria-hidden="true"></i><span data-letters="Short Codes">Short Codes <b class="caret"></b></a>
+								
+								 		<ul class="dropdown-menu agile_short_dropdown">
+										<li><a href="icons.html">Web Icons</a></li>
+										<li><a href="typography.html">Typography</a></li>
+								  		</ul>
+								</li>-->
+
+				<li class=" menu_item m_nav_item" id="moble_nav_item_6"> <a href="profile.html" class="link link--kumya"><i class="fa fa-user-circle" aria-hidden="true"></i><span data-letters="Profile">Profile</span></a></li>
+							
+			</ul>
+		</div>
+		<div class="menu_social">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(./images/bp1.jpg)"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<img src="./images/log.png" alt="">	
+									</div>
+									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
+										<div class="header_top_nav">
+											<ul class="d-flex flex-row align-items-center justify-content-start m_nav menu__list" id="m_nav_list">
+												<li class="m_nav_item" id="moble_nav_item_3"> <a href="about.html" class="link link--kumya"><i class="fa fa-info-circle" aria-hidden="true"></i><span data-letters="Help Desk">Help Desk</span></a></li>
+												<li class="m_nav_item" id="moble_nav_item_4"> <a href="booking.html" class="link link--kumya"><i class="fa fa-building-o" aria-hidden="true"></i><span data-letters="Emergency Services">Emergency Services</span></a></li>
+												<li class="m_nav_item" id="moble_nav_item_4"> <a href="signup.html" class="link link--kumya"><i class="fa fa-lock" aria-hidden="true"></i><span data-letters="LOG IN">LOG IN</span></a></li>
+												
+											</ul>
+										</div>
+										<div class="header_top_phone">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+											<span>+34 586 778 8892</span>
+										</div>
+									</div>
+									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start ">
+											<nav class="main_nav" >
+											
+												<ul class="d-flex flex-row align-items-center justify-content-start m_nav menu__list" id="m_nav_list">
+													<li class="m_nav_item " id="m_nav_item_1"> <a href="index.html" class="link link--kumya"><i class="fa fa-home" aria-hidden="true"></i><span data-letters="Home">Home</span></a></li>
+													<li class="m_nav_item active" id="moble_nav_item_3"> <a href="about.html" class="link link--kumya"><i class="fa fa-info-circle" aria-hidden="true"></i><span data-letters="About Us">About Us</span></a></li>
+													<li class="m_nav_item" id="moble_nav_item_4"> <a href="booking.html" class="link link--kumya"><i class="fa fa-building-o" aria-hidden="true"></i><span data-letters="Booking">Booking</span></a></li>
+													<li class="m_nav_item" id="moble_nav_item_4"> <a href="blog.html" class="link link--kumya"><i class="fa fa-edit" aria-hidden="true"></i><span data-letters="Blog">Blog</span></a></li>
+													<!--<li class="m_nav_item dropdown" id="moble_nav_item_2">
+														<a href="#" class="dropdown-toggle link link--kumya" data-toggle="dropdown"><i class="fas fa-lock"></i></i><i class="fa fa-cog" aria-hidden="true"></i><span data-letters="Short Codes">Short Codes <b class="caret"></b></a>
+													
+															<ul class="dropdown-menu agile_short_dropdown"><i class="fas fa-blog"></i>
+															<li><a href="icons.html">Web Icons</a></li><i class="fas fa-cubes"></i><i class="fas fa-edit"></i>
+															<li><a href="typography.html">Typography</a></li><i class="fas fa-user-circle"></i>
+															</ul>
+													</li>-->
+
+													<li class="m_nav_item" id="moble_nav_item_6"> <a href="profile.html" class="link link--kumya"><i class="fa fa-user-circle" aria-hidden="true"></i><span data-letters="Profile">Profile</span></a></li>
+												
+												</ul>
+											</nav>
+											<div class="search_content d-flex flex-row align-items-center justify-content-end ml-auto">
+												<form action="#" id="search_container_form" class="search_container_form">
+													<input type="text" class="search_container_input" placeholder="Search" required="required">
+													<button class="search_container_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="services-breadcrumb">
+								<div class="container">
+							
+								   <ul class="w3_short">
+										<li><a href="index.html">Home</a><i>|</i></li>
+										<li>About</li>
+									</ul>
+								 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Info Boxes -->
+
+	<div class="tm-section-2">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="tm-section-title">We are here to help you?</h2>
+					<p class="tm-color-white tm-section-subtitle">Subscribe to get our best service</p>
+					<div class="button home_button tm-btn-white-bordered"><a href="#"><span>Subscribe Hear</span><span>Subscribe Hear</span></a></div>
+				</div>                
+			</div>
+		</div>        
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="tm-section-down-arrow">
+		<polygon fill="#0b0357f5" points="0,0  100,0  50,60"></polygon>                   
+	</svg>
+</div>
+<!---        header      -->
+
+
+	
+
+
+
+<!--==========================
+      Frequently Asked Questions Section
+    ============================-->
+    <section id="faq">
+		<div class="container">
+		 <h2 class="tittle text-center font-weight-bold">To know About us </h2> 
+  
+		  <ul id="faq-list" class="wow fadeInUp">
+			<li>
+			  <a data-toggle="collapse" class="collapsed" href="#faq1">About us..... <i class="fa fa-sticky-note"></i></a>
+			  <div id="faq1" class="collapse" data-parent="#faq-list">
+				<p>
+				   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ducimus? Recusandae saepe, doloremque, porro eligendi officiis laudantium perferendis ipsa veritatis nostrum consequatur fugiat eum ducimus atque iure quaerat labore accusamus! 
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ducimus? Recusandae saepe, doloremque, porro eligendi officiis laudantium perferendis ipsa veritatis nostrum consequatur fugiat eum ducimus atque iure quaerat labore accusamus! 
+					orro eligendi officiis laudantium perferendis ipsa veritatis nostrum consequatur fugiat eum ducimus atque iure quaerat labore accusamus! 
+				 </p>
+				 <p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ducimus? Recusandae saepe, doloremque, porro eligendi officiis laudantium perferendis ipsa veritatis nostrum consequatur fugiat eum ducimus atque iure quaerat labore accusamus! 
+				 </p>
+				 <div class="button home_button "><a href="#"><span>read more</span><span>read more</span></a></div>
+			  </div>
+			</li>
+  
+			<li>
+			  <a data-toggle="collapse" href="#faq2" class="collapsed">Our Credentials ..... <i class="fa fa-sticky-note"></i></a>
+			  <div id="faq2" class="collapse" data-parent="#faq-list">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum tempora aspernatur consequatur minus hic dolor sequi beatae? Atque magnam culpa veritatis optio, eum sequi vitae quo aut ullam eos architecto illum quis quaerat mollitia error laboriosam ad in? Tempore!
+				</p>
+				<p class="pt-3">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe, nemo eveniet odit ut eos a omnis provident, porro explicabo magnam temporibus commodi architecto ipsa assumenda id mollitia maiores, consectetur nisi facilis doloribus hic! Porro deserunt est eaque laudantium quidem, blanditiis temporibus cum, dignissimos nobis libero incidunt natus iure provident alias nam amet exercitationem similique! Ipsum dolorem magni tenetur accusamus!
+				</p>
+				<p class="pt-3 pb-3">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi culpa saepe voluptate dolorem a et, reprehenderit dolorum dolore. Hic consequuntur modi ex facilis dolor. Dolor quae laboriosam praesentium quia nihil?
+				</p>
+			  </div>
+			</li>
+  
+			
+		  </ul>
+  
+		</div>
+	  </section><!-- #faq -->
+  
+  
+  
+
+
+
+	<!-- About -->
+
+
+
+<!-- testimonials -->
+<div class="testimonials" id="testimonials">
+	<div class="test_agile_info">
+	 <div class="container">
+		<div class="tittle-agileinfo">
+			<h3 class="title-w3-agileits">Testimonials</h3>
+		</div>
+		 <ul id="flexiselDemo1">			
+			 <li>
+				 <div class="wthree_testimonials_grid_main">
+					 <div class="wthree_testimonials_grid">
+						 <h4>What they say</h4>
+						 <p>Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+							 eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, 
+							 convallis tortor.</p>
+							 <h5>Mark Henry</h5>
+						 <div class="wthree_testimonials_grid_pos">
+							 <img src="images/1.png" alt=" " class="img-responsive" />
+						 </div>
+					 </div>
+				 
+				 </div>
+			 </li>
+			 <li>
+				 <div class="wthree_testimonials_grid_main">
+					 <div class="wthree_testimonials_grid">
+						 <h4>What they say</h4>
+						 <p>Lorem laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+							 eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, 
+							 convallis tortor.</p>
+							 <h5>Linda Carl</h5>
+						 <div class="wthree_testimonials_grid_pos">
+							 <img src="images/10.png" alt=" " class="img-responsive" />
+						 </div>
+					 </div>
+				 
+				 </div>
+			 </li>
+			 <li>
+				 <div class="wthree_testimonials_grid_main">
+					 <div class="wthree_testimonials_grid">
+						 <h4>What they say</h4>
+						 <p>Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+							 eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, 
+							 convallis tortor.</p>
+							 
+							 <h5>Michael Paul</h5>
+						 <div class="wthree_testimonials_grid_pos">
+							 <img src="images/12.png" alt=" " class="img-responsive" />
+						 </div>
+					 </div>
+					 
+				 </div>
+			 </li>
+		 </ul>
+	 </div>
+ </div>
+</div>
+<!-- //testimonials -->
+
+
+<!-- Contact -->
+
+<div class="contact">
+	<div class="container">
+		<div class="row">
+
+			<!-- Contact form -->
+			<div class="col-lg-8 contact_col">
+				<div class="contact_form">
+					<div class="contact_title">Get in touch</div>
+					<div class="contact_form_container">
+						<form action="#" id="contact_form" class="contact_form">
+							<input type="text" id="contact_input" class="contact_input" placeholder="Your Name" required="required">
+							<input type="email" id="contact_email" class="contact_input" placeholder="Your E-mail" required="required">
+							<input type="text" id="contact_subject" class="contact_input" placeholder="Subject" required="required">
+							<textarea class="contact_input contact_textarea" id="contact_textarea" placeholder="Message" required="required"></textarea>
+							<button class="contact_button" id="contact_button">send message</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<!-- Make an Appointment -->
+			<div class="col-lg-4 contact_col">
+				
+			</div>
+
+			<!-- contact info -->
+			<div class="contact_info">
+				<div class="row">
+					<div class="col-lg-3 offset-lg-1">
+						<div class="contact_info_list">
+							<div class="contact_info_title">Contact Info</div>
+							<ul>
+								<li><span>Address: </span>Mitlton Str. 26-27 Gibraltar</li>
+								<li><span>Email: </span>yourmail@gmail.com</li>
+								<li><span>Phone: </span>+53 345 7953 32453</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="contact_info_list contact_info_list_2">
+							<ul>
+								<li><span>Address: </span>Mitlton Str. 26-27 London UK</li>
+								<li><span>Email: </span>yourmail@gmail.com</li>
+								<li><span>Phone: </span>+53 345 7953 32453</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="contact_info_list">
+							<div class="contact_info_title">Opening Hours</div>
+							<ul>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Monday-Thursday</div>
+									<div class="ml-auto">8.00 - 19.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Friday</div>
+									<div class="ml-auto">8.00 - 18.30</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Saturday</div>
+									<div class="ml-auto">9.30 - 17.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Sunday</div>
+									<div class="ml-auto">9.30 - 15.00</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Google Map -->
+
+<div class="contact_map">
+	<!-- Google Map -->
+	<div class="map">
+		<div id="google_map" class="google_map">
+			<div class="map_container">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	
+
+<footer class="footer">
+	<div class="container py-xl-5 py-lg-3">
+		<!-- subscribe -->
+		<div class="subscribe mx-auto">
+			<div class="icon-effect-w3">
+				<span class="fa fa-envelope"></span>
+			</div>
+			<h2 class="tittle text-center font-weight-bold">Stay Updated!</h2>
+			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna
+				aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			<form action="#" method="post" class="subscribe-wthree pt-2">
+				<div class="d-flex subscribe-wthree-field">
+					<input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
+					<button class="btn form-control w-50" type="submit">Subscribe</button>
+				</div>
+			</form>
+		</div>
+		<!-- //subscribe -->
+	</div>	
+		
+	<div class="footer_bar">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+						<nav class="footer_nav">
+							<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="services.html">Booking</a></li>
+								<li><a href="news.html">Blog</a></li>
+								<li><a href="contact.html">Profile</a></li>
+							</ul>
+						</nav>
+						<div class="footer_links">
+							<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+								<li><a href="#">Help Desk</a></li>
+								<li><a href="#">Emergency Services</a></li>
+								<li><a href="#">Appointment</a></li>
+							</ul>
+						</div>
+						<div class="footer_phone ml-lg-auto">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>+34 586 778 8892</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- copyright bottom -->
+<div class="copy-bottom bg-li py-4 border-top">
+<div class="container">
+	<div class="d-md-flex px-md-3 position-relative text-center">
+		<!-- footer social icons -->
+		<div class="social-icons-footer mb-md-0 mb-3">
+			<ul class="list-unstyled">
+				<li>
+					<a href="#">
+						<span class="fa fa-facebook"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa fa-twitter"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa fa-google-plus"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa fa-instagram"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- //footer social icons -->
+		<!-- copyright -->
+		<div class="copy_right mx-md-auto mb-md-0 mb-3">
+			<p class="text-bl let">© 2020 Startup. All rights reserved | Design by
+				<a href="" target="_blank">Adam Imre Hegedus</a>
+			</p>
+		</div>
+		<!-- //copyright -->
+		<!-- move top icon -->
+		<ul class="menu nav">
+			<li class="pr-4" ><a style="color: #44018d;" href="index.html">Home</a></li>
+			<li><a style="color: #44018d;" href="about.html">About Us</a></li>
+			</ul>
+		<!-- //move top icon -->
+	</div>
+</div>
+</div>
+<!-- //copyright bottom -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/about.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //for testimunil working -->
+<script type="text/javascript">
+	$(window).load(function() {
+		$("#flexiselDemo1").flexisel({
+			visibleItems:1,
+			animationSpeed: 1000,
+			autoPlay: true,
+			autoPlaySpeed: 3000,    		
+			pauseOnHover: true,
+			enableResponsiveBreakpoints: true,
+			responsiveBreakpoints: { 
+				portrait: { 
+					changePoint:480,
+					visibleItems: 1
+				}, 
+				landscape: { 
+					changePoint:640,
+					visibleItems:1
+				},
+				tablet: { 
+					changePoint:768,
+					visibleItems: 1
+				}
+			}
+		});
+		
+	});
+</script>
+<script type="text/javascript" src="./js/jquery.flexisel.js"></script>
+<!-- //Flexslider-js for-testimonials -->
+</body>
+</html>
